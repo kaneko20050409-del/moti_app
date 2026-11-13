@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ツミアゲ 筋トレと毎日の目標</title>
+<meta name="description" content="筋トレと毎日の目標を記録して、積み上げを見えるようにするアプリ">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="ツミアゲ">
+<meta name="theme-color" content="#ECEFF2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B1F24" media="(prefers-color-scheme: dark)">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<style>
+@font-face{font-family:"Big Shoulders Display";font-weight:800;font-style:normal;font-display:swap;src:url(data:font/woff2;base64,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) format("woff2")}
+
+:root{
+  /* Layout: one thumb-reach column, sections split by hairlines, no card grid.
+     Weight-plate colours (red 25, blue 20, yellow 15, green 10) carry identity. */
+  --paper:#ECEFF2; --surface:#FFFFFF; --ink:#152030; --muted:#566475; --line:#D3D9E0;
+  --accent:#1F4FD8; --on-accent:#FFFFFF;
+  --plate-red:#D22F3D; --plate-blue:#1F4FD8; --plate-yellow:#D99E00; --plate-green:#17894D;
+  --good:#17894D; --danger:#C22534;
+  --font-body:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP","Noto Sans CJK JP","Yu Gothic UI",Meiryo,sans-serif;
+  --font-num:"Big Shoulders Display","Hiragino Sans","Noto Sans CJK JP",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#1B1F24; --surface:#262B32; --ink:#EDF0F3; --muted:#A0ABB7; --line:#3B434D;
+    --accent:#86A7FF; --on-accent:#10192A;
+    --plate-red:#F26B76; --plate-blue:#86A7FF; --plate-yellow:#F0C02E; --plate-green:#4FC78A;
+    --good:#4FC78A; --danger:#F26B76;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#1B1F24; --surface:#262B32; --ink:#EDF0F3; --muted:#A0ABB7; --line:#3B434D;
+  --accent:#86A7FF; --on-accent:#10192A;
+  --plate-red:#F26B76; --plate-blue:#86A7FF; --plate-yellow:#F0C02E; --plate-green:#4FC78A;
+  --good:#4FC78A; --danger:#F26B76;
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;height:100%}
+body{margin:0;min-height:100%;background:var(--paper);color:var(--ink);font:400 16px/1.6 var(--font-body);-webkit-tap-highlight-color:transparent;overscroll-behavior-y:none}
+body.lock{overflow:hidden}
+h1,h2,h3,p,ol,ul,figure{margin:0;padding:0}
+ol,ul{list-style:none}
+button,input,select,textarea{font:inherit;color:inherit}
+button{touch-action:manipulation;-webkit-user-select:none;user-select:none;cursor:pointer;background:none;border:0;padding:0}
+button:disabled{cursor:default;opacity:.35}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+[hidden]{display:none!important}
+.num{font-family:var(--font-num);font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:.015em;line-height:1}
+
+#app{max-width:480px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 14px) 16px calc(env(safe-area-inset-bottom) + 92px)}
+
+/* ---------- shared pieces ---------- */
+.sec{padding:20px 0 22px;border-top:1px solid var(--line)}
+.sec:first-of-type{border-top:0}
+.sec-h{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:14px}
+.sec-h h2{font-size:17px;font-weight:700;line-height:1.3;text-wrap:balance}
+.sec-h .side{font-size:14px;color:var(--muted);white-space:nowrap}
+.sec-h .side .num{font-size:24px;color:var(--ink)}
+.note{font-size:13px;line-height:1.6;color:var(--muted)}
+.empty{color:var(--muted);font-size:15px;margin-bottom:14px}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:46px;padding:0 16px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);font-weight:600;font-size:15px;line-height:1.2}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.btn.ghost{border-color:transparent;background:transparent;color:var(--accent);padding:0 10px}
+.btn.danger{color:var(--danger)}
+.btn.wide{display:flex;width:100%}
+.btn.big{min-height:54px;font-size:17px}
+.btn:active:not(:disabled){transform:translateY(1px)}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row > .btn{flex:1 1 140px}
+
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;margin-bottom:12px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;min-height:36px;padding:0 14px;border-radius:18px;border:1.5px solid var(--line);font-size:14px;font-weight:600;color:var(--muted);background:transparent}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+
+.c-red{--c:var(--plate-red)} .c-blue{--c:var(--plate-blue)} .c-yellow{--c:var(--plate-yellow)} .c-green{--c:var(--plate-green)}
+
+/* ---------- today ---------- */
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;padding:6px 0 18px}
+.top-date{display:flex;align-items:center;gap:2px;min-width:0}
+.top h1{font-size:28px;font-weight:800;line-height:1.2;letter-spacing:.02em}
+.top h1 small{display:block;font-size:13px;font-weight:500;color:var(--muted);letter-spacing:0}
+.nav{width:40px;height:44px;font-size:26px;line-height:1;color:var(--muted);border-radius:8px}
+.nav:first-child{margin-left:-12px}
+.streak{font-size:13px;color:var(--muted);text-align:right;white-space:nowrap;line-height:1.3}
+.streak .num{display:block;font-size:46px;color:var(--ink)}
+
+.banner{display:flex;flex-direction:column;gap:10px;padding:14px;margin-bottom:6px;border-radius:12px;background:var(--surface);border:1.5px dashed var(--muted);font-size:14px;line-height:1.6}
+
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.week button{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%;padding:6px 0 4px;border-radius:10px}
+.wd-l{font-size:12px;color:var(--muted);line-height:1}
+.wd-n{font-size:15px;color:var(--muted)}
+.plate{width:34px;height:34px;border-radius:50%;border:2px solid var(--line)}
+.done .plate{border:0;background:
+  radial-gradient(circle,var(--paper) 0 15%,transparent 16% 52%,color-mix(in oklab,var(--on-accent) 35%,transparent) 53% 58%,transparent 59%),
+  var(--accent)}
+.cur button{background:var(--surface);box-shadow:0 0 0 1.5px var(--ink)}
+.cur .wd-l,.cur .wd-n{color:var(--ink)}
+.cur.done .plate{background:
+  radial-gradient(circle,var(--surface) 0 15%,transparent 16% 52%,color-mix(in oklab,var(--on-accent) 35%,transparent) 53% 58%,transparent 59%),
+  var(--accent)}
+.future .plate{border-style:dashed}
+
+.habits{display:flex;flex-direction:column;gap:18px}
+.habit-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.habit-name{font-weight:700;font-size:16px;line-height:1.3;display:flex;align-items:center;gap:8px;min-width:0;overflow-wrap:anywhere}
+.habit-name::before{content:"";flex:none;width:10px;height:10px;border-radius:50%;background:var(--c)}
+.habit-run{font-size:12px;color:var(--muted);font-weight:500;white-space:nowrap}
+.habit-val{font-size:14px;color:var(--muted);white-space:nowrap}
+.habit-val .num{font-size:26px;color:var(--ink)}
+.bar{height:8px;border-radius:4px;background:color-mix(in oklab,var(--ink) 11%,transparent);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:4px;background:var(--c,var(--accent));transition:width .25s ease}
+.habit-ctl{display:flex;align-items:center;gap:8px;margin-top:10px}
+.habit-ctl .btn{min-height:44px}
+.habit-ctl .inc{flex:1}
+.habit-ctl .dec{flex:none;width:76px;color:var(--muted)}
+.pill{display:inline-flex;align-items:center;gap:4px;height:24px;padding:0 9px;border-radius:12px;font-size:12px;font-weight:700;color:var(--good);border:1.5px solid var(--good);white-space:nowrap}
+.pill svg{width:12px;height:12px}
+
+.sum{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+.sum li{display:flex;justify-content:space-between;gap:12px;font-size:15px}
+.sum li span:last-child{color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+
+/* ---------- train ---------- */
+.train-h{padding:6px 0 16px}
+.train-h h1{font-size:28px;font-weight:800;line-height:1.2}
+.train-h p{font-size:14px;color:var(--muted)}
+.totals{display:flex;gap:28px;padding:0 0 18px}
+.totals div{font-size:13px;color:var(--muted)}
+.totals .num{display:block;font-size:34px;color:var(--ink);margin-bottom:2px}
+.totals .num small{font-size:18px;margin-left:2px}
+
+.cards{display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
+.card{border-radius:14px;border:1.5px solid var(--line)}
+.card.on{background:var(--surface);border-color:var(--ink)}
+.card-h{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;padding:14px;text-align:left}
+.card-h b{font-size:17px;line-height:1.3;overflow-wrap:anywhere}
+.card-h span{font-size:13px;color:var(--muted);white-space:nowrap}
+.card-b{padding:0 14px 14px;display:flex;flex-direction:column;gap:14px}
+.prev{font-size:13px;color:var(--muted);line-height:1.5}
+.sets{display:flex;flex-direction:column}
+.sets li{display:flex;align-items:center;gap:10px;min-height:44px;border-top:1px solid var(--line)}
+.sets .no{width:20px;font-size:13px;color:var(--muted);text-align:center}
+.sets .v{flex:1;font-size:15px;color:var(--muted)}
+.sets .v .num{font-size:24px;color:var(--ink)}
+.tag{display:inline-flex;align-items:center;height:22px;padding:0 8px;border-radius:4px;background:var(--plate-red);color:#fff;font-size:11px;font-weight:700;white-space:nowrap}
+.x{width:44px;height:44px;margin-right:-10px;color:var(--muted);display:grid;place-items:center}
+.x svg{width:16px;height:16px}
+
+.entry{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.entry.one{grid-template-columns:1fr}
+.field label{display:block;font-size:13px;color:var(--muted);margin-bottom:4px}
+.stepper{display:grid;grid-template-columns:44px 1fr 44px;align-items:stretch;border:1.5px solid var(--line);border-radius:10px;overflow:hidden;background:var(--paper)}
+.stepper button{min-height:52px;font-size:13px;font-weight:700;color:var(--muted)}
+.stepper input{min-width:0;width:100%;border:0;background:transparent;text-align:center;font-family:var(--font-num);font-weight:800;font-size:30px;padding:0;border-radius:0}
+.stepper input:focus{outline:0;background:var(--surface)}
+.stepper:focus-within{border-color:var(--accent)}
+
+.plates{display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0 0}
+.pl-row{display:flex;align-items:center;justify-content:center;gap:2px;height:66px;max-width:100%}
+.pl-row .bar-mid{flex:0 1 84px;min-width:28px;height:6px;background:#9AA3AD;border-radius:1px}
+.pl-row .sleeve{flex:none;width:10px;height:10px;background:#9AA3AD;border-radius:2px}
+.pl{flex:none;display:block;border-radius:3px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.28)}
+.p25{width:13px;height:64px;background:#D22F3D}
+.p20{width:12px;height:64px;background:#2A5BE0}
+.p15{width:10px;height:56px;background:#E8B400}
+.p10{width:9px;height:48px;background:#1E9A57}
+.p5{width:7px;height:36px;background:#F1F3F5}
+.p2_5{width:6px;height:28px;background:#59636F}
+.p1_25{width:5px;height:22px;background:#59636F}
+.plates-cap{font-size:12px;color:var(--muted);text-align:center}
+.rest{font-size:13px;color:var(--muted);text-align:center;min-height:20px}
+.rest .num{font-size:18px;color:var(--ink);margin-left:4px}
+
+/* ---------- progress ---------- */
+.lift{display:flex;flex-direction:column;gap:6px}
+.lift-n{font-size:72px}
+.lift-n small{font-size:30px;margin-left:4px}
+.lift-eq{font-size:17px;font-weight:700;line-height:1.4}
+.lift-next{margin-top:10px;display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--muted)}
+
+.heat{display:grid;gap:3px;align-items:center}
+.heat .m{font-size:11px;color:var(--muted);line-height:1;white-space:nowrap;height:14px}
+.heat .w{font-size:11px;color:var(--muted);line-height:1}
+.cell{display:block;width:100%;aspect-ratio:1;border-radius:3px;background:color-mix(in oklab,var(--ink) 9%,transparent)}
+.cell.l1{background:color-mix(in oklab,var(--heat) 30%,var(--paper))}
+.cell.l2{background:color-mix(in oklab,var(--heat) 52%,var(--paper))}
+.cell.l3{background:color-mix(in oklab,var(--heat) 76%,var(--paper))}
+.cell.l4{background:var(--heat)}
+.cell.sel{box-shadow:0 0 0 2px var(--paper),0 0 0 4px var(--ink)}
+.cell.now{box-shadow:inset 0 0 0 1.5px var(--ink)}
+.cell.now.sel{box-shadow:inset 0 0 0 1.5px var(--ink),0 0 0 2px var(--paper),0 0 0 4px var(--ink)}
+.legend{display:flex;align-items:center;justify-content:flex-end;gap:4px;margin-top:8px;font-size:11px;color:var(--muted)}
+.legend .cell{width:12px}
+.day{margin-top:14px;padding:14px;border-radius:12px;background:var(--surface);display:flex;flex-direction:column;gap:8px}
+.day h3{font-size:15px}
+.day ul{font-size:14px;color:var(--muted);display:flex;flex-direction:column;gap:2px}
+
+.field-row{display:flex;gap:10px;align-items:center;margin-bottom:10px}
+select,.text,textarea{width:100%;min-height:46px;padding:0 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);font-size:16px}
+textarea{padding:10px 12px;min-height:150px;font-family:ui-monospace,Menlo,monospace;font-size:12px;line-height:1.5;resize:vertical}
+.readout{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:14px;color:var(--muted);margin-bottom:4px}
+.readout .num{font-size:30px;color:var(--ink)}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart .grid{stroke:var(--line);stroke-width:1}
+.chart .ax{fill:var(--muted);font-size:11px;font-family:var(--font-body)}
+.chart .ln{fill:none;stroke:var(--accent);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.chart .area{fill:color-mix(in oklab,var(--accent) 12%,transparent)}
+.chart .pt{fill:var(--paper);stroke:var(--accent);stroke-width:2}
+.chart .pt.pr{fill:var(--accent)}
+.chart .pt.end{stroke:var(--paper);stroke-width:2;fill:var(--accent)}
+.chart .guide{stroke:var(--ink);stroke-width:1;stroke-dasharray:3 3}
+.chart .endl{fill:var(--ink);font-family:var(--font-num);font-weight:800;font-size:15px}
+.chart .hit{fill:transparent;cursor:pointer}
+.chart-key{display:flex;gap:14px;font-size:12px;color:var(--muted);margin-top:6px;flex-wrap:wrap}
+.chart-key i{display:inline-block;width:9px;height:9px;border-radius:50%;border:2px solid var(--accent);margin-right:5px;vertical-align:-1px}
+.chart-key i.f{background:var(--accent)}
+.chart-sum{font-size:14px;margin-top:10px}
+
+.badges{display:grid;grid-template-columns:repeat(4,1fr);gap:14px 8px}
+.badge{display:flex;flex-direction:column;align-items:center;gap:6px;font-size:11px;color:var(--muted);line-height:1.2;text-align:center}
+.badge .disc{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-size:24px;border:2px dashed var(--line);color:var(--muted)}
+.badge.got .disc{border:0;color:#fff;background:
+  radial-gradient(circle,transparent 0 60%,rgba(255,255,255,.3) 61% 66%,transparent 67%),
+  var(--plate-blue)}
+.badge.over .disc{background:
+  radial-gradient(circle,transparent 0 60%,rgba(255,255,255,.3) 61% 66%,transparent 67%),
+  var(--plate-red)}
+:root[data-theme="dark"] .badge.got .disc{color:#10192A}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .badge.got .disc{color:#10192A}}
+
+/* ---------- settings ---------- */
+.set-list{display:flex;flex-direction:column}
+.set-list li{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:54px;border-top:1px solid var(--line)}
+.set-list li:first-child{border-top:0}
+.set-list .habit-name small{display:block;font-weight:400;font-size:13px;color:var(--muted)}
+.goal{display:flex;align-items:center;gap:14px}
+.goal .num{font-size:40px;min-width:1ch;text-align:center}
+.goal .btn{width:52px;font-size:22px;padding:0}
+.stack{display:flex;flex-direction:column;gap:10px}
+
+/* ---------- tabs ---------- */
+.tabs{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--surface);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
+.tabs ul{display:grid;grid-template-columns:repeat(4,1fr);max-width:480px;margin:0 auto}
+.tabs button{position:relative;display:flex;flex-direction:column;align-items:center;gap:3px;width:100%;padding:10px 0 8px;font-size:11px;font-weight:600;color:var(--muted);line-height:1.2}
+.tabs svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.tabs button[aria-current="page"]{color:var(--accent)}
+.tabs button[aria-current="page"]::before{content:"";position:absolute;top:-1px;left:28%;right:28%;height:3px;border-radius:0 0 3px 3px;background:var(--accent)}
+
+/* ---------- sheet / toast / celebration ---------- */
+.back{position:fixed;inset:0;z-index:20;background:rgba(10,14,20,.5)}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:21;max-width:480px;margin:0 auto;max-height:88%;display:flex;flex-direction:column;background:var(--surface);border-radius:18px 18px 0 0;padding-bottom:env(safe-area-inset-bottom);animation:up .22s ease}
+.sheet > header{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:14px 8px 6px 16px}
+.sheet > header h2{font-size:17px}
+.sheet-body{overflow-y:auto;-webkit-overflow-scrolling:touch;padding:6px 16px 20px;display:flex;flex-direction:column;gap:14px}
+.sheet .text,.sheet select,.sheet textarea{background:var(--paper)}
+.form{display:flex;flex-direction:column;gap:14px}
+.form label,.form legend{display:block;font-size:13px;color:var(--muted);margin-bottom:4px;padding:0}
+.form fieldset{border:0;margin:0;padding:0;min-width:0}
+.form .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.seg{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:6px}
+.seg label{margin:0}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg span{display:flex;align-items:center;justify-content:center;min-height:44px;padding:4px 8px;border-radius:10px;border:1.5px solid var(--line);font-size:14px;font-weight:600;color:var(--ink);text-align:center;line-height:1.3}
+.seg input:checked + span{background:var(--ink);border-color:var(--ink);color:var(--surface)}
+.seg input:focus-visible + span{outline:3px solid var(--accent);outline-offset:2px}
+.seg.sw span{min-height:44px}
+.seg.sw span::before{content:"";width:18px;height:18px;border-radius:50%;background:var(--c)}
+.seg.sw input:checked + span{background:var(--surface);border-color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.check{display:flex;align-items:center;gap:10px;font-size:15px;min-height:44px}
+.check input{width:22px;height:22px;accent-color:var(--accent)}
+.err{color:var(--danger);font-size:14px;font-weight:600}
+.pick-g{font-size:12px;color:var(--muted);padding:10px 0 2px}
+.pick button{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;min-height:48px;text-align:left;border-top:1px solid var(--line);font-size:16px}
+.pick button span{font-size:12px;color:var(--muted);white-space:nowrap}
+
+.toast{position:fixed;left:16px;right:16px;bottom:calc(env(safe-area-inset-bottom) + 84px);z-index:30;max-width:448px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:50px;padding:6px 8px 6px 16px;border-radius:12px;background:var(--ink);color:var(--paper);font-size:14px;font-weight:600;line-height:1.4;animation:up .2s ease}
+.toast button{min-height:38px;padding:0 12px;border-radius:8px;font-weight:700;color:var(--paper);text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+
+.cele{position:fixed;inset:0;z-index:40;display:grid;place-items:center;padding:24px;background:rgba(10,14,20,.62)}
+.cele canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.cele-card{position:relative;z-index:1;width:100%;max-width:340px;padding:26px 22px 20px;border-radius:18px;background:var(--surface);text-align:center;display:flex;flex-direction:column;gap:6px;animation:drop .5s cubic-bezier(.2,1.4,.4,1)}
+.cele-k{align-self:center;display:inline-flex;align-items:center;height:26px;padding:0 12px;border-radius:4px;background:var(--plate-red);color:#fff;font-size:13px;font-weight:700}
+.cele-n{font-size:17px;font-weight:700;margin-top:8px;overflow-wrap:anywhere}
+.cele-v{font-size:84px}
+.cele-v small{font-size:32px;margin-left:4px}
+.cele-s{font-size:14px;color:var(--muted);margin-bottom:12px;line-height:1.6}
+
+@keyframes up{from{transform:translateY(16px);opacity:0}to{transform:none;opacity:1}}
+@keyframes drop{from{transform:translateY(-40px) scale(.9);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion: reduce){
+  .sheet,.toast,.cele-card{animation:none}
+  .bar i{transition:none}
+}
+
+</style>
+</head>
+<body>
+<div id="app">
+  <main id="view"></main>
+</div>
+<nav class="tabs" aria-label="画面の切り替え">
+  <ul>
+    <li><button data-act="tab" data-tab="today"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.8 2.8L16 9.5"/></svg>今日</button></li>
+    <li><button data-act="tab" data-tab="train"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5v5M6.5 6.5v11M17.5 6.5v11M21 9.5v5M6.5 12h11"/></svg>筋トレ</button></li>
+    <li><button data-act="tab" data-tab="progress"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5v14h16M7.5 15l3.5-4 3 2.5L18.5 7"/></svg>歩み</button></li>
+    <li><button data-act="tab" data-tab="setup"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h9M19 7h1M4 17h1M11 17h9"/><circle cx="16" cy="7" r="2.5"/><circle cx="8" cy="17" r="2.5"/></svg>設定</button></li>
+  </ul>
+</nav>
+<div id="sheet-root"></div>
+<div id="toast-root" role="status" aria-live="polite"></div>
+<div id="cele-root"></div>
+<script>
+(function () {
+'use strict';
+
+/* ================= helpers ================= */
+const KEY = 'tsumiage.v1';
+const $ = (s, r) => (r || document).querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const pad = n => String(n).padStart(2, '0');
+const WD = ['日', '月', '火', '水', '木', '金', '土'];
+const DAY = 864e5;
+const r2 = n => Math.round(n * 100) / 100;
+
+function today() { const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); }
+const dkey = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+const parseKey = k => { const p = k.split('-').map(Number); return new Date(p[0], p[1] - 1, p[2]); };
+const addDays = (d, n) => { const x = new Date(d.getFullYear(), d.getMonth(), d.getDate()); x.setDate(x.getDate() + n); return x; };
+const weekStart = d => addDays(d, -((d.getDay() + 6) % 7));
+const tkey = () => dkey(today());
+
+const fmtN = n => String(r2(n));
+const fmtInt = n => Math.round(n).toLocaleString('ja-JP');
+const fmtDate = (k, wd) => { const d = parseKey(k); return `${d.getMonth() + 1}月${d.getDate()}日` + (wd ? `（${WD[d.getDay()]}）` : ''); };
+const fmtShort = k => { const d = parseKey(k); return `${d.getMonth() + 1}/${d.getDate()}`; };
+const fmtTime = sec => `${Math.floor(sec / 60)}:${pad(Math.round(sec % 60))}`;
+function fmtVol(kg) {
+  if (kg < 1000) return { v: fmtInt(kg), u: 'kg' };
+  const t = kg / 1000;
+  return { v: t >= 100 ? fmtInt(t) : (Math.round(t * 10) / 10).toFixed(1), u: 't' };
+}
+function parseNum(s) {
+  s = String(s).replace(/[０-９．]/g, c => String.fromCharCode(c.charCodeAt(0) - 0xFEE0)).replace(',', '.');
+  const n = parseFloat(s);
+  return isFinite(n) ? n : NaN;
+}
+const uid = () => 'x' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+const FRAMED = window.self !== window.top;
+const STANDALONE = !!(navigator.standalone || (window.matchMedia && matchMedia('(display-mode: standalone)').matches));
+const REDUCED = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+
+const ICON = {
+  check: '<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 6.5l2.6 2.6L10 3.4"/></svg>',
+  x: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9"/></svg>'
+};
+
+/* ================= data ================= */
+const CATS = ['胸', '背中', '脚', '肩', '腕', '体幹', 'その他'];
+const TYPES = { weight: '重さ × 回数', reps: '回数のみ', time: '時間' };
+const COLORS = ['blue', 'yellow', 'green', 'red'];
+const DEFAULT_EX = [
+  ['bench', 'ベンチプレス', '胸', 'weight', 1],
+  ['dbpress', 'ダンベルプレス', '胸', 'weight', 0],
+  ['chestpress', 'チェストプレス', '胸', 'weight', 0],
+  ['pushup', '腕立て伏せ', '胸', 'reps', 0],
+  ['deadlift', 'デッドリフト', '背中', 'weight', 1],
+  ['latpull', 'ラットプルダウン', '背中', 'weight', 0],
+  ['row', 'シーテッドロー', '背中', 'weight', 0],
+  ['bentrow', 'ベントオーバーロー', '背中', 'weight', 1],
+  ['pullup', '懸垂', '背中', 'reps', 0],
+  ['squat', 'スクワット', '脚', 'weight', 1],
+  ['legpress', 'レッグプレス', '脚', 'weight', 0],
+  ['legext', 'レッグエクステンション', '脚', 'weight', 0],
+  ['legcurl', 'レッグカール', '脚', 'weight', 0],
+  ['ohp', 'オーバーヘッドプレス', '肩', 'weight', 1],
+  ['shoulderpress', 'ダンベルショルダープレス', '肩', 'weight', 0],
+  ['sideraise', 'サイドレイズ', '肩', 'weight', 0],
+  ['curl', 'アームカール', '腕', 'weight', 0],
+  ['pressdown', 'トライセプスプレスダウン', '腕', 'weight', 0],
+  ['plank', 'プランク', '体幹', 'time', 0],
+  ['crunch', 'クランチ', '体幹', 'reps', 0]
+];
+// Rough reference weights in kg, used only for the "how much is that" comparison.
+const REFS = [
+  { n: '力士', w: 160, c: '人' },
+  { n: 'グランドピアノ', w: 300, c: '台' },
+  { n: '軽自動車', w: 900, c: '台' },
+  { n: 'アフリカゾウ', w: 6000, c: '頭' },
+  { n: '新幹線の車両', w: 44000, c: '両' },
+  { n: 'シロナガスクジラ', w: 150000, c: '頭' },
+  { n: '奈良の大仏', w: 250000, c: '体' },
+  { n: '国際宇宙ステーション', w: 420000, c: '基' },
+  { n: '東京タワー', w: 4000000, c: '基' }
+];
+
+function fresh() {
+  return {
+    v: 1, demo: false,
+    settings: { weeklyGoal: 3, lastExport: null },
+    exercises: DEFAULT_EX.map(e => ({ id: e[0], name: e[1], cat: e[2], type: e[3], barbell: !!e[4] })),
+    habits: [
+      { id: 'study', name: '勉強', kind: 'num', target: 2, unit: '時間', step: 0.5, color: 'yellow' },
+      { id: 'water', name: '水', kind: 'num', target: 2, unit: 'L', step: 0.25, color: 'blue' }
+    ],
+    workouts: {}, habitLog: {}
+  };
+}
+
+function sample() {
+  const s = fresh(); s.demo = true;
+  let seed = 20261113;
+  const rnd = () => { seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+  const t0 = today(), start = addDays(weekStart(t0), -70);
+  const plans = {
+    1: [['bench', 40, 1.25], ['shoulderpress', 8, 0.4], ['pressdown', 15, 0.75]],
+    3: [['deadlift', 60, 2.5], ['latpull', 30, 1.25], ['curl', 6, 0.3]],
+    5: [['squat', 50, 2], ['legpress', 80, 4], ['plank', 45, 4]]
+  };
+  for (let d = start; d < t0; d = addDays(d, 1)) {
+    const k = dkey(d), ago = Math.round((t0 - d) / DAY), wk = Math.floor(Math.round((d - start) / DAY) / 7);
+    const plan = plans[d.getDay()];
+    if (plan && (ago <= 7 || rnd() > 0.18)) {
+      s.workouts[k] = plan.map(p => {
+        const id = p[0], base = p[1], rate = p[2];
+        if (id === 'plank') { const t = Math.round((base + wk * rate) / 5) * 5; return { ex: id, sets: [{ t: t }, { t: t - 5 }] }; }
+        const st = base < 12 ? 1 : 2.5;
+        const w = Math.round((base + wk * rate) / st) * st, r = 8 + Math.floor(rnd() * 3);
+        return { ex: id, sets: [{ w: w, r: r }, { w: w, r: r - (rnd() > 0.5 ? 1 : 0) }, { w: w, r: r - 1 - Math.floor(rnd() * 2) }] };
+      });
+    }
+    const recent = ago <= 5;
+    s.habitLog[k] = {
+      study: recent ? [2, 2.5, 2, 3, 2][ago - 1] : [0, 1, 1.5, 2, 2, 2.5, 3, 2][Math.floor(rnd() * 8)],
+      water: recent ? 2 : [1, 1.5, 2, 2, 2, 2.25, 1.75, 2][Math.floor(rnd() * 8)]
+    };
+  }
+  s.habitLog[dkey(t0)] = { study: 0.5, water: 0.75 };
+  return s;
+}
+
+function normalize(o) {
+  if (!o || typeof o !== 'object' || !o.workouts || typeof o.workouts !== 'object' || !Array.isArray(o.habits) || !Array.isArray(o.exercises)) {
+    throw new Error('bad');
+  }
+  const f = fresh();
+  const s = {
+    v: 1, demo: !!o.demo,
+    settings: { weeklyGoal: Math.min(7, Math.max(1, Math.round(Number(o.settings && o.settings.weeklyGoal) || 3))), lastExport: (o.settings && o.settings.lastExport) || null },
+    exercises: o.exercises.filter(e => e && e.id && e.name).map(e => ({ id: String(e.id), name: String(e.name), cat: CATS.includes(e.cat) ? e.cat : 'その他', type: TYPES[e.type] ? e.type : 'weight', barbell: !!e.barbell })),
+    habits: o.habits.filter(h => h && h.id && h.name).map(h => ({ id: String(h.id), name: String(h.name), kind: h.kind === 'check' ? 'check' : 'num', target: Number(h.target) > 0 ? Number(h.target) : 1, unit: String(h.unit || ''), step: Number(h.step) > 0 ? Number(h.step) : 1, color: COLORS.includes(h.color) ? h.color : 'blue' })),
+    workouts: {}, habitLog: {}
+  };
+  if (!s.exercises.length) s.exercises = f.exercises;
+  const okKey = k => /^\d{4}-\d{2}-\d{2}$/.test(k);
+  for (const k of Object.keys(o.workouts)) {
+    if (!okKey(k) || !Array.isArray(o.workouts[k])) continue;
+    const list = o.workouts[k].filter(e => e && e.ex && Array.isArray(e.sets)).map(e => ({
+      ex: String(e.ex),
+      sets: e.sets.filter(x => x && typeof x === 'object').map(x => {
+        const y = {};
+        if (isFinite(x.w)) y.w = Number(x.w);
+        if (isFinite(x.r)) y.r = Number(x.r);
+        if (isFinite(x.t)) y.t = Number(x.t);
+        return y;
+      })
+    }));
+    if (list.length) s.workouts[k] = list;
+  }
+  const hl = o.habitLog && typeof o.habitLog === 'object' ? o.habitLog : {};
+  for (const k of Object.keys(hl)) {
+    if (!okKey(k) || !hl[k] || typeof hl[k] !== 'object') continue;
+    const day = {};
+    for (const id of Object.keys(hl[k])) if (isFinite(hl[k][id]) && Number(hl[k][id]) > 0) day[id] = Number(hl[k][id]);
+    if (Object.keys(day).length) s.habitLog[k] = day;
+  }
+  return s;
+}
+
+let state, storageOk = true, undoSnap = null;
+function load() { try { const s = localStorage.getItem(KEY); if (s) return JSON.parse(s); } catch (e) { storageOk = false; } return null; }
+function save() {
+  try { localStorage.setItem(KEY, JSON.stringify(state)); storageOk = true; } catch (e) { storageOk = false; }
+}
+let askedPersist = false;
+function askPersist() {
+  if (askedPersist || FRAMED) return; askedPersist = true;
+  try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {}); } catch (e) {}
+}
+const snap = () => { undoSnap = JSON.stringify(state); };
+
+/* ================= derived ================= */
+const exById = id => state.exercises.find(e => e.id === id);
+const session = k => state.workouts[k] || [];
+const hasWorkout = k => session(k).some(e => e.sets.length > 0);
+const setCount = k => session(k).reduce((a, e) => a + e.sets.length, 0);
+const setVol = x => (x.w > 0 && x.r > 0 ? x.w * x.r : 0);
+const dayVol = k => session(k).reduce((a, e) => a + e.sets.reduce((b, x) => b + setVol(x), 0), 0);
+const habitVal = (k, h) => (state.habitLog[k] && state.habitLog[k][h.id]) || 0;
+const habitGoal = h => (h.kind === 'check' ? 1 : h.target);
+const habitDone = (k, h) => habitVal(k, h) >= habitGoal(h) - 1e-9;
+const dayActive = k => hasWorkout(k) || state.habits.some(h => habitDone(k, h));
+function streakOf(fn) {
+  let d = today(), n = 0;
+  if (!fn(dkey(d))) d = addDays(d, -1);
+  while (fn(dkey(d))) { n++; d = addDays(d, -1); }
+  return n;
+}
+function weekCount(k) {
+  const ws = weekStart(parseKey(k)); let n = 0;
+  for (let i = 0; i < 7; i++) if (hasWorkout(dkey(addDays(ws, i)))) n++;
+  return n;
+}
+function totalVol() { let t = 0; for (const k of Object.keys(state.workouts)) t += dayVol(k); return t; }
+function exHistory(id) {
+  const out = [];
+  for (const d of Object.keys(state.workouts).sort()) {
+    const sets = [];
+    for (const e of state.workouts[d]) if (e.ex === id) for (const x of e.sets) sets.push(x);
+    if (sets.length) out.push({ d: d, sets: sets });
+  }
+  return out;
+}
+const prevSession = (id, k) => { const h = exHistory(id).filter(x => x.d < k); return h.length ? h[h.length - 1] : null; };
+const e1rm = x => (x.r <= 1 ? x.w : x.w * (1 + x.r / 30));
+const setText = (ex, x) => ex.type === 'weight' ? `${fmtN(x.w)}×${x.r}` : ex.type === 'reps' ? `${x.r}回` : fmtTime(x.t);
+
+// A set is a personal best when it beats everything logged before it,
+// but only once the exercise has an earlier session to compare against.
+function scanPRs(id) {
+  const ex = exById(id), out = new Map();
+  if (!ex) return out;
+  let mw = 0, me = 0, mr = 0, mt = 0;
+  exHistory(id).forEach((h, si) => {
+    h.sets.forEach((x, i) => {
+      const key = h.d + '|' + i;
+      if (ex.type === 'weight') {
+        const e = e1rm(x);
+        if (si > 0 && x.w > mw + 1e-9) out.set(key, { kind: 'w', prev: mw, val: x.w });
+        else if (si > 0 && x.r <= 15 && e > me + 0.05) out.set(key, { kind: 'e', prev: me, val: e });
+        mw = Math.max(mw, x.w || 0); me = Math.max(me, x.r <= 15 ? e : 0);
+      } else if (ex.type === 'reps') {
+        if (si > 0 && x.r > mr) out.set(key, { kind: 'r', prev: mr, val: x.r });
+        mr = Math.max(mr, x.r || 0);
+      } else {
+        if (si > 0 && x.t > mt) out.set(key, { kind: 't', prev: mt, val: x.t });
+        mt = Math.max(mt, x.t || 0);
+      }
+    });
+  });
+  return out;
+}
+
+/* ================= ui state ================= */
+const ui = { tab: 'today', date: tkey(), follow: true, active: 0, draft: null, sheet: null, heat: 'workout', heatDay: null, chartEx: null, chartMetric: 'w', chartSel: null };
+let lastSetAt = 0, toastTimer = 0;
+
+function setDate(k) {
+  const t = tkey();
+  if (k > t) k = t;
+  ui.date = k; ui.follow = k === t; ui.active = Math.max(0, session(k).length - 1); ui.draft = null;
+}
+
+/* ================= views ================= */
+function vToday() {
+  const tk = tkey(), dk = ui.date, isToday = dk === tk, d = parseKey(dk);
+  const ws = weekStart(d), goal = state.settings.weeklyGoal;
+  let wk = '', cnt = 0;
+  for (let i = 0; i < 7; i++) {
+    const x = addDays(ws, i), k = dkey(x), done = hasWorkout(k);
+    if (done) cnt++;
+    wk += `<li class="${done ? 'done ' : ''}${k === dk ? 'cur ' : ''}${k > tk ? 'future' : ''}"><button data-act="go-day" data-d="${k}" ${k > tk ? 'disabled' : ''} aria-label="${fmtDate(k, 1)}${done ? ' 筋トレ済み' : ''}"${k === dk ? ' aria-current="date"' : ''}><span class="wd-l">${WD[x.getDay()]}</span><span class="plate"></span><span class="wd-n num">${x.getDate()}</span></button></li>`;
+  }
+  const habits = state.habits.map(h => {
+    const v = habitVal(dk, h), g = habitGoal(h), done = habitDone(dk, h), pct = Math.min(100, v / g * 100);
+    const run = streakOf(k => habitDone(k, h));
+    const pill = done ? `<span class="pill">${ICON.check}達成</span>` : '';
+    const top = `<div class="habit-top"><span class="habit-name">${esc(h.name)}${run >= 2 ? `<span class="habit-run">${run}日連続</span>` : ''}</span>` +
+      (h.kind === 'num'
+        ? `<span class="habit-val">${pill} <b class="num">${fmtN(v)}</b> / ${fmtN(g)} ${esc(h.unit)}</span>`
+        : `<span class="habit-val">${pill}</span>`) + `</div>`;
+    const ctl = h.kind === 'num'
+      ? `<div class="habit-ctl"><button class="btn dec" data-act="habit-add" data-id="${esc(h.id)}" data-d="-1" ${v <= 0 ? 'disabled' : ''} aria-label="${esc(h.name)}を${fmtN(h.step)}${esc(h.unit)}減らす">−${fmtN(h.step)}</button><button class="btn inc" data-act="habit-add" data-id="${esc(h.id)}" data-d="1">＋${fmtN(h.step)} ${esc(h.unit)}</button></div>`
+      : `<div class="habit-ctl"><button class="btn inc${done ? '' : ' primary'}" data-act="habit-toggle" data-id="${esc(h.id)}">${done ? '達成を取り消す' : '達成にする'}</button></div>`;
+    return `<li class="c-${h.color}">${top}<div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(pct)}" aria-label="${esc(h.name)}"><i style="width:${pct}%"></i></div>${ctl}</li>`;
+  }).join('');
+
+  const ses = session(dk).filter(e => e.sets.length);
+  let wo;
+  if (ses.length) {
+    const vol = dayVol(dk);
+    wo = `<ul class="sum">${ses.map(e => { const ex = exById(e.ex); return ex ? `<li><span>${esc(ex.name)}</span><span>${e.sets.map(x => setText(ex, x)).join('・')}</span></li>` : ''; }).join('')}</ul>
+      <button class="btn wide" data-act="go-train">続きを記録する</button>`;
+    wo = `<div class="sec-h"><h2>${isToday ? '今日' : 'この日'}の筋トレ</h2><span class="side">${setCount(dk)}セット${vol ? `・${fmtInt(vol)}kg` : ''}</span></div>` + wo;
+  } else {
+    wo = `<div class="sec-h"><h2>${isToday ? '今日' : 'この日'}の筋トレ</h2></div><p class="empty">まだ記録がありません。</p><button class="btn primary big wide" data-act="go-train">筋トレを記録する</button>`;
+  }
+
+  return `
+  <header class="top">
+    <div class="top-date">
+      <button class="nav" data-act="day-shift" data-d="-1" aria-label="前の日">‹</button>
+      <h1>${isToday ? '今日' : fmtDate(dk)}<small>${isToday ? fmtDate(dk, 1) : WD[d.getDay()] + '曜日'}</small></h1>
+      <button class="nav" data-act="day-shift" data-d="1" aria-label="次の日" ${isToday ? 'disabled' : ''}>›</button>
+    </div>
+    <p class="streak"><b class="num">${streakOf(dayActive)}</b>日連続</p>
+  </header>
+  ${state.demo ? `<div class="banner"><p>いまはサンプルの記録を表示しています。自由に触って試せます。</p><button class="btn primary" data-act="demo-clear">サンプルを消して自分の記録を始める</button></div>` : ''}
+  ${isToday ? '' : `<p style="margin-bottom:10px"><button class="btn wide" data-act="go-day" data-d="${tk}">今日に戻る</button></p>`}
+  <section class="sec">
+    <div class="sec-h"><h2>${weekStart(today()).getTime() === ws.getTime() ? '今週' : 'この週'}の筋トレ</h2><span class="side"><b class="num">${cnt}</b> / ${goal}回${cnt >= goal ? ` <span class="pill">${ICON.check}達成</span>` : ''}</span></div>
+    <ol class="week">${wk}</ol>
+  </section>
+  <section class="sec">
+    <div class="sec-h"><h2>毎日の目標</h2><button class="btn ghost" style="min-height:32px" data-act="habit-edit" data-id="">追加</button></div>
+    ${state.habits.length ? `<ul class="habits">${habits}</ul>` : `<p class="empty">目標はまだありません。「追加」から、勉強や水分補給など毎日続けたいことを決められます。</p>`}
+  </section>
+  <section class="sec">${wo}</section>`;
+}
+
+function ensureDraft() {
+  const dk = ui.date, ses = session(dk);
+  if (ui.active >= ses.length) ui.active = Math.max(0, ses.length - 1);
+  const e = ses[ui.active];
+  if (!e) { ui.draft = null; return; }
+  const key = dk + '|' + ui.active + '|' + e.ex;
+  if (ui.draft && ui.draft.key === key) return;
+  const ex = exById(e.ex) || {}, last = e.sets[e.sets.length - 1], prev = prevSession(e.ex, dk);
+  const ref = last || (prev && prev.sets[0]) || {};
+  ui.draft = {
+    key: key,
+    w: ref.w != null ? ref.w : (ex.barbell ? 20 : 10),
+    r: ref.r != null ? ref.r : 10,
+    m: ref.t != null ? Math.floor(ref.t / 60) : 0,
+    s: ref.t != null ? ref.t % 60 : 30
+  };
+}
+
+function platesHTML(w) {
+  const BAR = 20;
+  if (!(w >= BAR)) return `<p class="plates-cap">バー（20kg）より軽い重さです</p>`;
+  let side = (w - BAR) / 2; const used = [];
+  for (const p of [25, 20, 15, 10, 5, 2.5, 1.25]) while (side >= p - 1e-9 && used.length < 12) { used.push(p); side -= p; }
+  const pl = p => `<i class="pl p${String(p).replace('.', '_')}"></i>`;
+  const cap = used.length ? `片側 ${used.map(fmtN).join('・')}` : 'プレートなし';
+  return `<div class="pl-row" role="img" aria-label="バー20kgと${cap}">${used.slice().reverse().map(pl).join('')}<i class="sleeve"></i><i class="bar-mid"></i><i class="sleeve"></i>${used.map(pl).join('')}</div>
+    <p class="plates-cap">バー20kg ＋ ${cap}${side > 1e-6 ? `（残り${fmtN(side * 2)}kgは組めません）` : ''}</p>`;
+}
+
+function stepper(f, label, val, d) {
+  return `<div class="field"><label for="in-${f}">${label}</label><div class="stepper">
+    <button data-act="step" data-f="${f}" data-d="${-d}" aria-label="${label}を${d}減らす">−${d}</button>
+    <input id="in-${f}" data-in="draft" data-f="${f}" type="text" inputmode="decimal" autocomplete="off" value="${fmtN(val)}">
+    <button data-act="step" data-f="${f}" data-d="${d}" aria-label="${label}を${d}増やす">＋${d}</button></div></div>`;
+}
+
+function vTrain() {
+  const dk = ui.date, ses = session(dk), isToday = dk === tkey();
+  ensureDraft();
+  const vol = dayVol(dk), sets = setCount(dk);
+  const cards = ses.map((e, i) => {
+    const ex = exById(e.ex); if (!ex) return '';
+    const on = i === ui.active;
+    const head = `<button class="card-h" data-act="card-open" data-i="${i}" aria-expanded="${on}"><b>${esc(ex.name)}</b><span>${e.sets.length ? e.sets.length + 'セット' : '未記録'}</span></button>`;
+    if (!on) return `<li class="card">${head}</li>`;
+    const prs = scanPRs(ex.id), prev = prevSession(ex.id, dk), dr = ui.draft;
+    const rows = e.sets.map((x, j) => {
+      const pr = prs.get(dk + '|' + j);
+      const v = ex.type === 'weight' ? `<b class="num">${fmtN(x.w)}</b> kg × <b class="num">${x.r}</b> 回`
+        : ex.type === 'reps' ? `<b class="num">${x.r}</b> 回` : `<b class="num">${fmtTime(x.t)}</b>`;
+      return `<li><span class="no">${j + 1}</span><span class="v">${v}</span>${pr ? '<span class="tag">自己ベスト</span>' : ''}<button class="x" data-act="del-set" data-i="${i}" data-j="${j}" aria-label="${j + 1}セット目を消す">${ICON.x}</button></li>`;
+    }).join('');
+    const entry = ex.type === 'weight' ? `<div class="entry">${stepper('w', '重さ kg', dr.w, 2.5)}${stepper('r', '回数', dr.r, 1)}</div>`
+      : ex.type === 'reps' ? `<div class="entry one">${stepper('r', '回数', dr.r, 1)}</div>`
+        : `<div class="entry">${stepper('m', '分', dr.m, 1)}${stepper('s', '秒', dr.s, 5)}</div>`;
+    return `<li class="card on">${head}<div class="card-b">
+      ${prev ? `<p class="prev">前回 ${fmtShort(prev.d)}：${prev.sets.map(x => setText(ex, x)).join('・')}</p>` : `<p class="prev">この種目は今回が初めての記録です。</p>`}
+      ${rows ? `<ol class="sets">${rows}</ol>` : ''}
+      ${entry}
+      ${ex.type === 'weight' && ex.barbell ? `<div class="plates" id="plates">${platesHTML(dr.w)}</div>` : ''}
+      <button class="btn primary big wide" data-act="log-set">${e.sets.length + 1}セット目を記録する</button>
+      <p class="rest" id="rest" aria-live="off"></p>
+      <button class="btn ghost danger" style="align-self:center;min-height:36px" data-act="del-entry" data-i="${i}">この種目を外す</button>
+    </div></li>`;
+  }).join('');
+
+  return `
+  <header class="train-h"><h1>筋トレ</h1><p>${isToday ? '今日 ' : ''}${fmtDate(dk, 1)}${isToday ? '' : ' の記録を編集中'}</p></header>
+  ${ses.length ? `<div class="totals"><div><b class="num">${sets}</b>セット</div><div><b class="num">${fmtInt(vol)}<small>kg</small></b>合計の重さ</div></div>` : ''}
+  ${ses.length ? `<ol class="cards">${cards}</ol>` : `<p class="empty">種目を選ぶと、セットごとに重さと回数を記録できます。前回の記録が出るので、同じ重さならボタン1つで済みます。</p>`}
+  <button class="btn ${ses.length ? '' : 'primary big '}wide" data-act="pick-open">種目を追加</button>`;
+}
+
+function liftHTML() {
+  const tot = totalVol(), f = fmtVol(tot);
+  let cur = null, next = null;
+  for (const r of REFS) { if (tot >= r.w) cur = r; else { next = r; break; } }
+  const eq = cur ? `${cur.n} 約${(Math.round(tot / cur.w * 10) / 10).toFixed(1)}${cur.c}分` : 'ここから積み上げていきます';
+  let nx = '';
+  if (next) {
+    const base = cur ? cur.w : 0, left = fmtVol(next.w - tot), nw = fmtVol(next.w);
+    nx = `<div class="lift-next"><div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round((tot - base) / (next.w - base) * 100)}" aria-label="次の目安まで"><i style="width:${Math.max(2, (tot - base) / (next.w - base) * 100)}%"></i></div><p>次の目安は ${next.n}1${next.c}（約${nw.v}${nw.u}）。あと ${left.v}${left.u}</p></div>`;
+  }
+  return `<div class="lift"><p class="lift-n num">${f.v}<small>${f.u}</small></p><p class="lift-eq">${eq}</p>${nx}<p class="note" style="margin-top:6px">重さ×回数の合計です。比べている物の重さはおおよその目安です。</p></div>`;
+}
+
+function heatHTML() {
+  const N = 16, t = today(), tk = dkey(t), start = addDays(weekStart(t), -(N - 1) * 7);
+  const habit = state.habits.find(h => h.id === ui.heat);
+  if (ui.heat !== 'workout' && !habit) ui.heat = 'workout';
+  const chips = `<button class="chip" data-act="heat" data-id="workout" aria-pressed="${ui.heat === 'workout'}">筋トレ</button>` +
+    state.habits.map(h => `<button class="chip" data-act="heat" data-id="${esc(h.id)}" aria-pressed="${ui.heat === h.id}">${esc(h.name)}</button>`).join('');
+  let cells = '', lastM = -1;
+  for (let c = 0; c < N; c++) {
+    const mon = addDays(start, c * 7);
+    if (mon.getMonth() !== lastM && !(c === 0 && addDays(mon, 7).getMonth() !== mon.getMonth())) { cells += `<span class="m" style="grid-column:${c + 2};grid-row:1">${mon.getMonth() + 1}月</span>`; lastM = mon.getMonth(); }
+    for (let r = 0; r < 7; r++) {
+      const d = addDays(mon, r), k = dkey(d);
+      if (k > tk) continue;
+      let lv = 0, lab;
+      if (habit) {
+        const v = habitVal(k, habit), g = habitGoal(habit), q = v / g;
+        lv = q >= 1 ? 4 : q >= 0.75 ? 3 : q >= 0.5 ? 2 : q > 0 ? 1 : 0;
+        lab = habit.kind === 'num' ? `${fmtN(v)}${habit.unit}` : (v ? '達成' : '未達成');
+      } else {
+        const n = setCount(k);
+        lv = n >= 12 ? 4 : n >= 8 ? 3 : n >= 4 ? 2 : n > 0 ? 1 : 0;
+        lab = n ? `${n}セット` : '記録なし';
+      }
+      cells += `<button class="cell l${lv}${k === ui.heatDay ? ' sel' : ''}${k === tk ? ' now' : ''}" style="grid-column:${c + 2};grid-row:${r + 2}" data-act="heat-day" data-d="${k}" aria-label="${fmtDate(k, 1)} ${esc(lab)}"${k === ui.heatDay ? ' aria-pressed="true"' : ''}></button>`;
+    }
+  }
+  const wl = [0, 2, 4].map(r => `<span class="w" style="grid-column:1;grid-row:${r + 2}">${WD[(r + 1) % 7]}</span>`).join('');
+  let day = '';
+  if (ui.heatDay) {
+    const k = ui.heatDay, n = setCount(k), vol = dayVol(k);
+    const items = [`筋トレ：${n ? `${n}セット${vol ? `・${fmtInt(vol)}kg` : ''}` : '記録なし'}`].concat(state.habits.map(h => {
+      const v = habitVal(k, h);
+      return `${esc(h.name)}：${h.kind === 'num' ? `${fmtN(v)} / ${fmtN(h.target)} ${esc(h.unit)}` : (v ? '達成' : '未達成')}${h.kind === 'num' && habitDone(k, h) ? '（達成）' : ''}`;
+    }));
+    day = `<div class="day"><h3>${fmtDate(k, 1)}</h3><ul>${items.map(x => `<li>${x}</li>`).join('')}</ul><button class="btn" data-act="open-day" data-d="${k}">この日を開いて直す</button></div>`;
+  }
+  const heatVar = habit ? `var(--plate-${habit.color})` : 'var(--accent)';
+  return `<div class="chips">${chips}</div>
+    <div class="heat" style="--heat:${heatVar};grid-template-columns:16px repeat(${N},minmax(0,1fr))">${wl}${cells}</div>
+    <div class="legend" style="--heat:${heatVar}"><span>${habit ? '0' : '少ない'}</span><i class="cell"></i><i class="cell l1"></i><i class="cell l2"></i><i class="cell l3"></i><i class="cell l4"></i><span>${habit ? '達成' : '多い'}</span></div>
+    ${day || `<p class="note" style="margin-top:8px">マスを押すと、その日の記録を見られます。</p>`}`;
+}
+
+function niceTicks(lo, hi, n) {
+  if (hi - lo < 1e-9) { lo -= 1; hi += 1; }
+  const raw = (hi - lo) / n, mag = Math.pow(10, Math.floor(Math.log10(raw))), q = raw / mag;
+  const step = (q <= 1 ? 1 : q <= 2 ? 2 : q <= 2.5 ? 2.5 : q <= 5 ? 5 : 10) * mag;
+  const a = Math.floor(lo / step + 1e-9) * step, b = Math.ceil(hi / step - 1e-9) * step, out = [];
+  for (let v = a; v <= b + step / 2; v += step) out.push(r2(v));
+  return out;
+}
+
+function chartHTML() {
+  const used = state.exercises.map(e => ({ e: e, h: exHistory(e.id) })).filter(x => x.h.length).sort((a, b) => b.h.length - a.h.length);
+  if (!used.length) return `<p class="empty">筋トレを記録すると、種目ごとの伸びがここにグラフで出ます。</p>`;
+  let cur = used.find(x => x.e.id === ui.chartEx) || used[0];
+  ui.chartEx = cur.e.id;
+  const ex = cur.e, hist = cur.h.slice(-40);
+  const metrics = ex.type === 'weight' ? [['w', '最高重量'], ['e', '推定1RM']] : ex.type === 'reps' ? [['r', '最高回数']] : [['t', '最長時間']];
+  if (!metrics.some(m => m[0] === ui.chartMetric)) ui.chartMetric = metrics[0][0];
+  const mt = ui.chartMetric;
+  const val = x => mt === 'w' ? (x.w || 0) : mt === 'e' ? e1rm(x) : mt === 'r' ? (x.r || 0) : (x.t || 0);
+  const show = v => mt === 't' ? fmtTime(v) : mt === 'r' ? `${fmtN(v)}回` : `${fmtN(Math.round(v * 10) / 10)}kg`;
+  const tick = v => mt === 't' ? fmtTime(v) : fmtN(v);
+  const pts = hist.map(h => ({ d: h.d, v: Math.max.apply(null, h.sets.map(val)) }));
+  let run = -Infinity; pts.forEach((p, i) => { p.pr = i > 0 && p.v > run + 1e-9; run = Math.max(run, p.v); });
+  const sel = ui.chartSel != null && pts[ui.chartSel] ? ui.chartSel : pts.length - 1;
+
+  const W = 340, H = 190, L = 36, R = 46, T = 14, B = 26;
+  const ticks = niceTicks(Math.min.apply(null, pts.map(p => p.v)), Math.max.apply(null, pts.map(p => p.v)), 3);
+  const y0 = ticks[0], y1 = ticks[ticks.length - 1];
+  const t0 = parseKey(pts[0].d).getTime(), t1 = parseKey(pts[pts.length - 1].d).getTime();
+  const X = p => pts.length === 1 || t1 === t0 ? L + (W - L - R) / 2 : L + 10 + (parseKey(p.d).getTime() - t0) / (t1 - t0) * (W - L - R - 10);
+  const Y = v => T + (1 - (v - y0) / (y1 - y0)) * (H - T - B);
+  const f1 = n => n.toFixed(1);
+  const line = pts.map((p, i) => (i ? 'L' : 'M') + f1(X(p)) + ' ' + f1(Y(p.v))).join('');
+  const lastI = pts.length - 1, lp = pts[lastI];
+  const svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(ex.name)}の${metrics.find(m => m[0] === mt)[1]}の推移。最初 ${show(pts[0].v)}、最新 ${show(lp.v)}">
+    ${ticks.map(v => `<line class="grid" x1="${L}" x2="${W - R}" y1="${f1(Y(v))}" y2="${f1(Y(v))}"/><text class="ax" x="${L - 6}" y="${f1(Y(v) + 4)}" text-anchor="end">${tick(v)}</text>`).join('')}
+    <text class="ax" x="${L + 10}" y="${H - 6}" text-anchor="middle">${fmtShort(pts[0].d)}</text>
+    ${pts.length > 1 ? `<text class="ax" x="${W - R}" y="${H - 6}" text-anchor="end">${fmtShort(lp.d)}</text>` : ''}
+    ${pts.length > 1 ? `<path class="area" d="${line}L${f1(X(lp))} ${H - B}L${f1(X(pts[0]))} ${H - B}Z"/><path class="ln" d="${line}"/>` : ''}
+    ${sel !== lastI ? `<line class="guide" x1="${f1(X(pts[sel]))}" x2="${f1(X(pts[sel]))}" y1="${T}" y2="${H - B}"/>` : ''}
+    ${pts.map((p, i) => i === lastI ? '' : `<circle class="pt${p.pr ? ' pr' : ''}" cx="${f1(X(p))}" cy="${f1(Y(p.v))}" r="${i === sel ? 5.5 : 4}"/>`).join('')}
+    <circle class="pt end" cx="${f1(X(lp))}" cy="${f1(Y(lp.v))}" r="6"/>
+    <text class="endl" x="${f1(X(lp) + 10)}" y="${f1(Y(lp.v) + 5)}">${mt === 't' ? fmtTime(lp.v) : fmtN(Math.round(lp.v * 10) / 10)}</text>
+    ${pts.map((p, i) => `<circle class="hit" cx="${f1(X(p))}" cy="${f1(Y(p.v))}" r="13" data-act="chart-pt" data-i="${i}" tabindex="0" role="button" aria-label="${fmtDate(p.d)} ${show(p.v)}"/>`).join('')}
+  </svg>`;
+  const diff = lp.v - pts[0].v;
+  const dshow = mt === 't' ? `${Math.round(Math.abs(diff))}秒` : mt === 'r' ? `${fmtN(Math.abs(diff))}回` : `${fmtN(Math.round(Math.abs(diff) * 10) / 10)}kg`;
+  return `
+    <div class="field-row"><label for="chart-ex" class="note" style="flex:none">種目</label><select id="chart-ex" data-change="chart-ex">${used.map(x => `<option value="${esc(x.e.id)}"${x.e.id === ex.id ? ' selected' : ''}>${esc(x.e.name)}</option>`).join('')}</select></div>
+    ${metrics.length > 1 ? `<div class="chips">${metrics.map(m => `<button class="chip" data-act="chart-metric" data-id="${m[0]}" aria-pressed="${m[0] === mt}">${m[1]}</button>`).join('')}</div>` : ''}
+    <p class="readout"><span>${fmtDate(pts[sel].d, 1)}${pts[sel].pr ? ' <span class="tag">自己ベスト</span>' : ''}</span><b class="num">${show(pts[sel].v)}</b></p>
+    <figure class="chart">${svg}</figure>
+    <p class="chart-key"><span><i class="f"></i>自己ベストを更新した日</span><span><i></i>それ以外の日</span></p>
+    ${pts.length > 1 ? `<p class="chart-sum">最初の ${show(pts[0].v)} から ${diff > 0 ? `<b>${dshow}伸びました</b>` : diff < 0 ? `${dshow}下がっています` : '変わっていません'}（${pts.length}回の記録）</p>` : `<p class="chart-sum">次に記録すると、線でつながります。</p>`}
+    ${mt === 'e' ? `<p class="note" style="margin-top:6px">推定1RMは、重さと回数から計算した「1回だけ挙げられる重さ」の目安です。</p>` : ''}`;
+}
+
+function badgesHTML() {
+  const goal = state.settings.weeklyGoal, ws = weekStart(today());
+  let html = '', got = 0, run = 0, runOpen = true;
+  for (let i = 0; i < 8; i++) {
+    const s = addDays(ws, -7 * i), n = weekCount(dkey(s)), ok = n >= goal;
+    if (ok) got++;
+    if (runOpen) { if (ok) run++; else if (i > 0) runOpen = false; }
+    html = `<li class="badge${ok ? ' got' : ''}${n > goal ? ' over' : ''}"><span class="disc num" aria-hidden="true">${n}</span><span>${i === 0 ? '今週' : fmtShort(dkey(s)) + '〜'}<br>${ok ? '達成' : `${n}/${goal}回`}</span></li>` + html;
+  }
+  return `<ol class="badges">${html}</ol><p class="note" style="margin-top:12px">直近8週のうち${got}週で達成${run >= 2 ? `、${run}週連続で達成中` : ''}。数字はその週に筋トレをした日数です。</p>`;
+}
+
+function vProgress() {
+  const goal = state.settings.weeklyGoal;
+  return `
+  <header class="train-h"><h1>歩み</h1><p>これまでに積み上げた記録</p></header>
+  <section class="sec"><div class="sec-h"><h2>持ち上げた重さの合計</h2></div>${liftHTML()}</section>
+  <section class="sec"><div class="sec-h"><h2>カレンダー</h2><span class="side">${streakOf(dayActive)}日連続</span></div>${heatHTML()}
+    <p class="note" style="margin-top:10px">連続日数は、筋トレをした日と、毎日の目標を1つ以上達成した日を数えます。</p></section>
+  <section class="sec"><div class="sec-h"><h2>種目ごとの伸び</h2></div>${chartHTML()}</section>
+  <section class="sec"><div class="sec-h"><h2>週の目標バッジ</h2><span class="side">週${goal}回</span></div>${badgesHTML()}</section>`;
+}
+
+function vSetup() {
+  const g = state.settings.weeklyGoal, le = state.settings.lastExport;
+  const days = le ? Math.round((today() - parseKey(le)) / DAY) : null;
+  const place = FRAMED
+    ? 'これは試し用の画面です。記録はこのブラウザにだけ残り、消えることがあります。続けて使うときは、ホーム画面に追加する版を使ってください。'
+    : !storageOk ? 'このブラウザでは記録を保存できません。プライベートブラウズを切るか、Safariで開き直してください。'
+      : STANDALONE ? '記録はこのiPhoneの中に保存されています。機種変更やアプリの削除に備えて、ときどき書き出しておくと安心です。'
+        : '記録はこのブラウザの中に保存されています。Safariの共有ボタンから「ホーム画面に追加」すると、アプリのように使えて記録も消えにくくなります。';
+  return `
+  <header class="train-h"><h1>設定</h1></header>
+  <section class="sec"><div class="sec-h"><h2>週に筋トレをする回数</h2></div>
+    <div class="goal"><button class="btn" data-act="goal" data-d="-1" ${g <= 1 ? 'disabled' : ''} aria-label="1回減らす">−</button><span><b class="num">${g}</b> 回</span><button class="btn" data-act="goal" data-d="1" ${g >= 7 ? 'disabled' : ''} aria-label="1回増やす">＋</button></div>
+  </section>
+  <section class="sec"><div class="sec-h"><h2>毎日の目標</h2></div>
+    <ul class="set-list">${state.habits.map(h => `<li class="c-${h.color}"><span class="habit-name"><span>${esc(h.name)}<small>${h.kind === 'num' ? `1日 ${fmtN(h.target)} ${esc(h.unit)}` : 'できたらチェック'}</small></span></span><button class="btn ghost" data-act="habit-edit" data-id="${esc(h.id)}">変更</button></li>`).join('')}</ul>
+    <button class="btn wide" style="margin-top:10px" data-act="habit-edit" data-id="">目標を追加</button>
+  </section>
+  <section class="sec"><div class="sec-h"><h2>記録のバックアップ</h2></div>
+    <div class="stack"><p class="note">${place}</p>
+    <p class="note">${days == null ? 'まだ一度も書き出していません。' : days === 0 ? '今日書き出しました。' : `最後に書き出したのは${days}日前です。`}</p>
+    <div class="row"><button class="btn" data-act="export">記録を書き出す</button><button class="btn" data-act="import">記録を読み込む</button></div></div>
+  </section>
+  <section class="sec"><div class="sec-h"><h2>やり直す</h2></div>
+    <button class="btn danger wide" data-act="wipe">すべての記録を消す</button>
+  </section>`;
+}
+
+/* ================= sheets ================= */
+function pickListHTML() {
+  const sh = ui.sheet, q = (sh.q || '').trim().toLowerCase(), inSes = new Set(session(ui.date).map(e => e.ex));
+  let html = '';
+  for (const c of CATS) {
+    const list = state.exercises.filter(e => e.cat === c && (!q || e.name.toLowerCase().includes(q)));
+    if (!list.length) continue;
+    html += `<p class="pick-g">${c}</p>` + list.map(e => `<button data-act="pick-ex" data-id="${esc(e.id)}">${esc(e.name)}<span>${inSes.has(e.id) ? '追加済み' : e.type === 'weight' ? '' : TYPES[e.type]}</span></button>`).join('');
+  }
+  return html || `<p class="empty" style="margin-top:10px">見つかりません。下のボタンから新しく作れます。</p>`;
+}
+
+function sheetHTML() {
+  const sh = ui.sheet;
+  if (sh.type === 'pick') {
+    if (sh.form) {
+      return ['新しい種目を作る', `<div class="form">
+        <div><label for="nx-name">種目の名前</label><input class="text" id="nx-name" maxlength="30" autocomplete="off" value="${esc(sh.q || '')}"></div>
+        <div><label for="nx-cat">部位</label><select id="nx-cat">${CATS.map(c => `<option>${c}</option>`).join('')}</select></div>
+        <fieldset><legend>記録のしかた</legend><div class="seg">${Object.keys(TYPES).map((t, i) => `<label><input type="radio" name="nx-type" id="nx-type-${t}" value="${t}"${i ? '' : ' checked'}><span>${TYPES[t]}</span></label>`).join('')}</div></fieldset>
+        <label class="check" for="nx-bar"><input type="checkbox" id="nx-bar">バーベルを使う（プレートの組み方を表示）</label>
+        <p class="err" id="form-err" hidden></p>
+        <button class="btn primary big wide" data-act="newex-save">この種目を追加する</button>
+        <button class="btn ghost" data-act="newex-toggle">一覧に戻る</button></div>`];
+    }
+    return ['種目を選ぶ', `<input class="text" id="pick-q" type="search" placeholder="名前でさがす" autocomplete="off" data-in="pick-q" value="${esc(sh.q || '')}" aria-label="種目を名前でさがす">
+      <div class="pick" id="pick-list">${pickListHTML()}</div>
+      <button class="btn wide" data-act="newex-toggle">新しい種目を作る</button>`];
+  }
+  if (sh.type === 'habit') {
+    const h = state.habits.find(x => x.id === sh.id) || { name: '', kind: 'num', target: 1, unit: '', step: 1, color: COLORS[state.habits.length % COLORS.length] };
+    const num = (sh.kind || h.kind) === 'num';
+    return [sh.id ? '目標を変更' : '目標を追加', `<div class="form">
+      <div><label for="hb-name">名前</label><input class="text" id="hb-name" maxlength="20" autocomplete="off" placeholder="例：読書、ストレッチ" value="${esc(h.name)}"></div>
+      <fieldset><legend>記録のしかた</legend><div class="seg">
+        <label><input type="radio" name="hb-kind" id="hb-kind-num" value="num" data-change="habit-kind"${num ? ' checked' : ''}><span>数で記録</span></label>
+        <label><input type="radio" name="hb-kind" id="hb-kind-check" value="check" data-change="habit-kind"${num ? '' : ' checked'}><span>できたかどうか</span></label></div></fieldset>
+      <div id="hb-num" ${num ? '' : 'hidden'}><div class="two">
+        <div><label for="hb-target">1日の目標</label><input class="text" id="hb-target" type="text" inputmode="decimal" value="${fmtN(h.target)}"></div>
+        <div><label for="hb-unit">単位</label><input class="text" id="hb-unit" maxlength="6" autocomplete="off" placeholder="時間、L、ページ" value="${esc(h.unit)}"></div></div>
+        <div style="margin-top:14px"><label for="hb-step">ボタン1回で増やす量</label><input class="text" id="hb-step" type="text" inputmode="decimal" value="${fmtN(h.step)}"></div></div>
+      <fieldset><legend>色</legend><div class="seg sw">${COLORS.map(c => `<label class="c-${c}"><input type="radio" name="hb-color" id="hb-color-${c}" value="${c}"${c === h.color ? ' checked' : ''}><span aria-label="${{ blue: '青', yellow: '黄', green: '緑', red: '赤' }[c]}"></span></label>`).join('')}</div></fieldset>
+      <p class="err" id="form-err" hidden></p>
+      <button class="btn primary big wide" data-act="habit-save">${sh.id ? '変更を保存する' : 'この目標を追加する'}</button>
+      ${sh.id ? `<button class="btn ghost danger" data-act="habit-del">この目標を消す</button>` : ''}</div>`];
+  }
+  if (sh.type === 'export') {
+    return ['記録を書き出す', `<p class="note">下の文字がすべての記録です。コピーしてメモアプリなどに貼っておけば、あとで「記録を読み込む」から元に戻せます。</p>
+      <textarea id="ex-text" readonly aria-label="記録のデータ">${esc(sh.json)}</textarea>
+      <div class="row"><button class="btn primary" data-act="copy-json">コピーする</button>${FRAMED ? '' : `<button class="btn" data-act="save-file">ファイルに保存する</button>`}</div>`];
+  }
+  if (sh.type === 'import') {
+    return ['記録を読み込む', `<p class="note">書き出したときの文字を貼るか、保存したファイルを選んでください。いまの記録は読み込んだ内容に置き換わります。</p>
+      <textarea id="im-text" placeholder="ここに貼り付け" aria-label="読み込むデータ"></textarea>
+      <div><label class="note" for="im-file">ファイルから選ぶ</label><input class="text" style="padding:9px 12px" type="file" id="im-file" accept=".json,application/json,text/plain" data-change="im-file"></div>
+      <p class="err" id="form-err" hidden></p>
+      <button class="btn primary big wide" data-act="import-apply">この内容に置き換える</button>`];
+  }
+  if (sh.type === 'confirm') {
+    return [sh.title, `<p>${sh.msg}</p><div class="row"><button class="btn" data-act="sheet-close">やめる</button><button class="btn primary" data-act="confirm-yes">${sh.yes}</button></div>`];
+  }
+  return ['', ''];
+}
+
+function renderSheet() {
+  const root = $('#sheet-root');
+  if (!ui.sheet) { root.innerHTML = ''; document.body.classList.remove('lock'); return; }
+  document.body.classList.add('lock');
+  const p = sheetHTML();
+  root.innerHTML = `<div class="back" data-act="sheet-close"></div><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-t"><header><h2 id="sheet-t">${p[0]}</h2><button class="btn ghost" data-act="sheet-close">閉じる</button></header><div class="sheet-body">${p[1]}</div></div>`;
+}
+function openSheet(s) { ui.sheet = s; renderSheet(); }
+function closeSheet() { ui.sheet = null; renderSheet(); }
+function formErr(msg) { const e = $('#form-err'); if (e) { e.textContent = msg; e.hidden = false; } }
+
+/* ================= render ================= */
+const VIEWS = { today: vToday, train: vTrain, progress: vProgress, setup: vSetup };
+function render() {
+  $('#view').innerHTML = VIEWS[ui.tab]();
+  document.querySelectorAll('.tabs button').forEach(b => { if (b.dataset.tab === ui.tab) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
+  tickRest();
+}
+function commit() { save(); askPersist(); render(); }
+function go(tab) { ui.tab = tab; render(); window.scrollTo(0, 0); }
+
+function toast(msg, undo) {
+  const el = $('#toast-root');
+  el.innerHTML = `<div class="toast"><span>${esc(msg)}</span>${undo ? '<button data-act="undo">元に戻す</button>' : ''}</div>`;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.innerHTML = ''; }, undo ? 6000 : 2800);
+}
+
+function tickRest() {
+  const el = $('#rest'); if (!el) return;
+  const s = Math.floor((Date.now() - lastSetAt) / 1000);
+  el.innerHTML = lastSetAt && s < 900 && ui.date === tkey() ? `前のセットから<b class="num">${fmtTime(s)}</b>` : '';
+}
+
+/* ================= celebration ================= */
+let celeRaf = 0;
+function celebrate(name, big, unit, sub) {
+  const el = $('#cele-root');
+  el.innerHTML = `<div class="cele" data-act="cele-close"><canvas aria-hidden="true"></canvas><div class="cele-card" role="alertdialog" aria-labelledby="cele-k"><p class="cele-k" id="cele-k">自己ベスト更新</p><p class="cele-n">${esc(name)}</p><p class="cele-v num">${big}<small>${unit}</small></p><p class="cele-s">${sub}</p><button class="btn primary big" data-act="cele-close">続ける</button></div></div>`;
+  const btn = $('.cele-card button', el); if (btn) btn.focus({ preventScroll: true });
+  if (REDUCED) return;
+  const cv = $('canvas', el), ctx = cv.getContext('2d'), dpr = Math.min(2, window.devicePixelRatio || 1);
+  const W = cv.clientWidth, H = cv.clientHeight; cv.width = W * dpr; cv.height = H * dpr; ctx.scale(dpr, dpr);
+  const cols = ['#D22F3D', '#2A5BE0', '#E8B400', '#1E9A57', '#F1F3F5'];
+  const ps = []; for (let i = 0; i < 70; i++) ps.push({ x: W / 2 + (Math.random() - 0.5) * 80, y: H * 0.42, vx: (Math.random() - 0.5) * 13, vy: -6 - Math.random() * 11, r: 6 + Math.random() * 9, c: cols[i % cols.length], a: Math.random() * 6.28, va: (Math.random() - 0.5) * 0.3 });
+  const t0 = performance.now();
+  cancelAnimationFrame(celeRaf);
+  (function frame(t) {
+    const k = (t - t0) / 2600;
+    ctx.clearRect(0, 0, W, H);
+    if (k >= 1 || !cv.isConnected) return;
+    ctx.globalAlpha = k > 0.7 ? (1 - k) / 0.3 : 1;
+    for (const p of ps) {
+      p.vy += 0.32; p.vx *= 0.99; p.x += p.vx; p.y += p.vy; p.a += p.va;
+      // each piece is a tiny weight plate seen at an angle
+      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.a); ctx.scale(1, 0.35 + 0.65 * Math.abs(Math.cos(p.a * 1.7)));
+      ctx.beginPath(); ctx.arc(0, 0, p.r, 0, 6.2832); ctx.arc(0, 0, p.r * 0.28, 0, 6.2832, true); ctx.fillStyle = p.c; ctx.fill('evenodd'); ctx.restore();
+    }
+    celeRaf = requestAnimationFrame(frame);
+  })(t0);
+}
+
+/* ================= actions ================= */
+function readDraft() {
+  const d = ui.draft; if (!d) return;
+  ['w', 'r', 'm', 's'].forEach(f => { const el = $('#in-' + f); if (el) d[f] = parseNum(el.value); });
+}
+function refreshPlates() { const el = $('#plates'); if (el && ui.draft) el.innerHTML = platesHTML(ui.draft.w); }
+
+const ACT = {
+  tab(el) { go(el.dataset.tab); },
+  'go-day'(el) { setDate(el.dataset.d); render(); },
+  'day-shift'(el) { setDate(dkey(addDays(parseKey(ui.date), Number(el.dataset.d)))); render(); },
+  'open-day'(el) { setDate(el.dataset.d); go('today'); },
+  'go-train'() { go('train'); },
+  'demo-clear'() { snap(); const keep = state.settings.weeklyGoal; state = fresh(); state.settings.weeklyGoal = keep; setDate(tkey()); ui.heatDay = null; ui.chartEx = null; ui.chartSel = null; commit(); toast('サンプルを消しました', true); },
+
+  'habit-add'(el) {
+    const h = state.habits.find(x => x.id === el.dataset.id); if (!h) return;
+    const k = ui.date, was = habitDone(k, h), v = Math.max(0, r2(habitVal(k, h) + Number(el.dataset.d) * h.step));
+    setHabit(k, h, v); commit(); afterHabit(h, was);
+  },
+  'habit-toggle'(el) {
+    const h = state.habits.find(x => x.id === el.dataset.id); if (!h) return;
+    const k = ui.date, was = habitDone(k, h);
+    setHabit(k, h, was ? 0 : 1); commit(); afterHabit(h, was);
+  },
+  'habit-edit'(el) { openSheet({ type: 'habit', id: el.dataset.id || null }); const n = $('#hb-name'); if (n && !el.dataset.id) n.focus(); },
+  'habit-save'() {
+    const sh = ui.sheet, name = $('#hb-name').value.trim(), kind = $('#hb-kind-check').checked ? 'check' : 'num';
+    const target = parseNum($('#hb-target').value), step = parseNum($('#hb-step').value), unit = $('#hb-unit').value.trim();
+    const color = (document.querySelector('input[name="hb-color"]:checked') || {}).value || 'blue';
+    if (!name) return formErr('名前を入れてください。');
+    if (kind === 'num' && !(target > 0)) return formErr('1日の目標は0より大きい数字で入れてください。');
+    if (kind === 'num' && !(step > 0)) return formErr('ボタン1回で増やす量は0より大きい数字で入れてください。');
+    const data = { name: name, kind: kind, target: kind === 'num' ? target : 1, unit: kind === 'num' ? unit : '', step: kind === 'num' ? step : 1, color: color };
+    const h = state.habits.find(x => x.id === sh.id);
+    if (h) Object.assign(h, data); else state.habits.push(Object.assign({ id: uid() }, data));
+    closeSheet(); commit(); toast(h ? '変更を保存しました' : '目標を追加しました');
+  },
+  'habit-del'() {
+    const id = ui.sheet.id; snap();
+    state.habits = state.habits.filter(h => h.id !== id);
+    for (const k of Object.keys(state.habitLog)) { delete state.habitLog[k][id]; if (!Object.keys(state.habitLog[k]).length) delete state.habitLog[k]; }
+    closeSheet(); commit(); toast('目標を消しました', true);
+  },
+
+  'card-open'(el) { ui.active = Number(el.dataset.i); ui.draft = null; render(); },
+  step(el) {
+    readDraft(); const d = ui.draft, f = el.dataset.f; if (!d) return;
+    let v = (isFinite(d[f]) ? d[f] : 0) + Number(el.dataset.d);
+    if (f === 's') {
+      if (v >= 60) { d.m = (isFinite(d.m) ? d.m : 0) + 1; v -= 60; }
+      else if (v < 0) { if (d.m > 0) { d.m -= 1; v += 60; } else v = 0; }
+      const m = $('#in-m'); if (m) m.value = fmtN(d.m);
+    }
+    d[f] = Math.max(f === 'r' ? 1 : 0, r2(v));
+    const inp = $('#in-' + f); if (inp) inp.value = fmtN(d[f]);
+    refreshPlates();
+  },
+  'log-set'() {
+    const dk = ui.date, e = session(dk)[ui.active]; if (!e) return;
+    const ex = exById(e.ex); readDraft(); const d = ui.draft; let set;
+    if (ex.type === 'weight') {
+      if (!(d.w >= 0) || !(d.r >= 1)) return toast('重さと回数を数字で入れてください');
+      set = { w: r2(d.w), r: Math.round(d.r) };
+    } else if (ex.type === 'reps') {
+      if (!(d.r >= 1)) return toast('回数を数字で入れてください');
+      set = { r: Math.round(d.r) };
+    } else {
+      const t = Math.round((d.m > 0 ? d.m : 0) * 60 + (d.s > 0 ? d.s : 0));
+      if (!(t > 0)) return toast('時間を入れてください');
+      set = { t: t };
+    }
+    const before = weekCount(dk);
+    e.sets.push(set); lastSetAt = Date.now();
+    const pr = scanPRs(ex.id).get(dk + '|' + (exHistory(ex.id).find(h => h.d === dk).sets.length - 1));
+    commit();
+    if (pr) {
+      if (pr.kind === 'w') celebrate(ex.name, fmtN(pr.val), 'kg', `これまでの最高 ${fmtN(pr.prev)}kg から ＋${fmtN(pr.val - pr.prev)}kg`);
+      else if (pr.kind === 'e') celebrate(ex.name, `${fmtN(set.w)}×${set.r}`, '', `推定1RMが ${fmtN(Math.round(pr.prev * 10) / 10)}kg → ${fmtN(Math.round(pr.val * 10) / 10)}kg に伸びました`);
+      else if (pr.kind === 'r') celebrate(ex.name, String(pr.val), '回', `これまでの最高 ${pr.prev}回 から ＋${pr.val - pr.prev}回`);
+      else celebrate(ex.name, fmtTime(pr.val), '', `これまでの最長 ${fmtTime(pr.prev)} から ＋${Math.round(pr.val - pr.prev)}秒`);
+    } else {
+      const after = weekCount(dk);
+      if (after > before && after === state.settings.weeklyGoal) toast('今週の筋トレ目標を達成しました');
+    }
+  },
+  'del-set'(el) { snap(); const e = session(ui.date)[Number(el.dataset.i)]; if (!e) return; e.sets.splice(Number(el.dataset.j), 1); commit(); toast('セットを消しました', true); },
+  'del-entry'(el) {
+    snap(); const k = ui.date, list = session(k); list.splice(Number(el.dataset.i), 1);
+    if (!list.length) delete state.workouts[k];
+    ui.active = Math.max(0, list.length - 1); ui.draft = null; commit(); toast('種目を外しました', true);
+  },
+  'pick-open'() { openSheet({ type: 'pick', q: '', form: false }); },
+  'pick-ex'(el) {
+    const k = ui.date, id = el.dataset.id; if (!exById(id)) return;
+    if (!state.workouts[k]) state.workouts[k] = [];
+    let i = state.workouts[k].findIndex(e => e.ex === id);
+    if (i < 0) { state.workouts[k].push({ ex: id, sets: [] }); i = state.workouts[k].length - 1; }
+    ui.active = i; ui.draft = null; closeSheet(); commit();
+  },
+  'newex-toggle'() { const q = $('#pick-q'); if (q) ui.sheet.q = q.value; ui.sheet.form = !ui.sheet.form; renderSheet(); const n = $('#nx-name'); if (n) n.focus(); },
+  'newex-save'() {
+    const name = $('#nx-name').value.trim();
+    if (!name) return formErr('種目の名前を入れてください。');
+    if (state.exercises.some(e => e.name === name)) return formErr('同じ名前の種目がすでにあります。');
+    const type = (document.querySelector('input[name="nx-type"]:checked') || {}).value || 'weight';
+    const ex = { id: uid(), name: name, cat: $('#nx-cat').value, type: type, barbell: type === 'weight' && $('#nx-bar').checked };
+    state.exercises.push(ex);
+    ACT['pick-ex']({ dataset: { id: ex.id } });
+  },
+
+  heat(el) { ui.heat = el.dataset.id; render(); },
+  'heat-day'(el) { ui.heatDay = ui.heatDay === el.dataset.d ? null : el.dataset.d; render(); },
+  'chart-metric'(el) { ui.chartMetric = el.dataset.id; ui.chartSel = null; render(); },
+  'chart-pt'(el) { ui.chartSel = Number(el.dataset.i); render(); },
+
+  goal(el) { state.settings.weeklyGoal = Math.min(7, Math.max(1, state.settings.weeklyGoal + Number(el.dataset.d))); commit(); },
+  export() { openSheet({ type: 'export', json: JSON.stringify(state) }); },
+  'copy-json'() {
+    const done = () => { state.settings.lastExport = tkey(); save(); toast('コピーしました'); };
+    const fallback = () => { const t = $('#ex-text'); t.focus(); t.select(); try { if (document.execCommand('copy')) return done(); } catch (e) {} toast('コピーできませんでした。文字を長押しして全選択してください'); };
+    try { navigator.clipboard.writeText(ui.sheet.json).then(done, fallback); } catch (e) { fallback(); }
+  },
+  'save-file'() {
+    const name = `tsumiage-${tkey()}.json`, json = ui.sheet.json;
+    const done = () => { state.settings.lastExport = tkey(); save(); };
+    try {
+      const file = new File([json], name, { type: 'application/json' });
+      if (navigator.canShare && navigator.canShare({ files: [file] })) { navigator.share({ files: [file] }).then(done, () => {}); return; }
+    } catch (e) {}
+    try {
+      const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([json], { type: 'application/json' })); a.download = name;
+      document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000); done();
+    } catch (e) { toast('保存できませんでした。「コピーする」を使ってください'); }
+  },
+  import() { openSheet({ type: 'import' }); },
+  'import-apply'() {
+    let next;
+    try { next = normalize(JSON.parse($('#im-text').value)); } catch (e) { return formErr('読み込めませんでした。書き出したときの文字が、最初から最後まで入っているか確かめてください。'); }
+    next.demo = false; snap(); state = next; setDate(tkey()); ui.heatDay = null; ui.chartEx = null; ui.chartSel = null;
+    closeSheet(); commit(); toast('記録を読み込みました', true);
+  },
+  wipe() { openSheet({ type: 'confirm', title: 'すべての記録を消す', msg: '筋トレと毎日の目標の記録がすべて消えます。目標の設定と種目の一覧は残ります。', yes: '記録を消す', run: 'wipe' }); },
+  'confirm-yes'() {
+    if (ui.sheet.run === 'wipe') { snap(); state.workouts = {}; state.habitLog = {}; state.demo = false; ui.heatDay = null; ui.chartSel = null; ui.draft = null; closeSheet(); commit(); toast('すべての記録を消しました', true); }
+  },
+  undo() { if (!undoSnap) return; try { state = normalize(JSON.parse(undoSnap)); } catch (e) { return; } undoSnap = null; ui.draft = null; $('#toast-root').innerHTML = ''; commit(); },
+  'sheet-close'() { closeSheet(); },
+  'cele-close'() { cancelAnimationFrame(celeRaf); $('#cele-root').innerHTML = ''; }
+};
+
+function setHabit(k, h, v) {
+  if (v > 0) { if (!state.habitLog[k]) state.habitLog[k] = {}; state.habitLog[k][h.id] = v; }
+  else if (state.habitLog[k]) { delete state.habitLog[k][h.id]; if (!Object.keys(state.habitLog[k]).length) delete state.habitLog[k]; }
+}
+function afterHabit(h, was) {
+  const k = ui.date;
+  if (was || !habitDone(k, h)) return;
+  toast(state.habits.length > 1 && state.habits.every(x => habitDone(k, x)) ? '毎日の目標をすべて達成しました' : `${h.name}の目標を達成しました`);
+}
+
+/* ================= events ================= */
+document.addEventListener('click', ev => {
+  const el = ev.target.closest('[data-act]'); if (!el || el.disabled) return;
+  if (el.dataset.act === 'cele-close' && el.classList.contains('cele') && ev.target.closest('.cele-card')) return;
+  const fn = ACT[el.dataset.act]; if (fn) fn(el, ev);
+});
+document.addEventListener('keydown', ev => {
+  if (ev.key === 'Escape') { if ($('#cele-root').firstChild) ACT['cele-close'](); else if (ui.sheet) closeSheet(); return; }
+  if ((ev.key === 'Enter' || ev.key === ' ') && ev.target.matches && ev.target.matches('.hit')) { ev.preventDefault(); ACT['chart-pt'](ev.target); }
+  if (ev.key === 'Enter' && ev.target.matches && ev.target.matches('.stepper input')) { ev.preventDefault(); ev.target.blur(); }
+});
+document.addEventListener('input', ev => {
+  const t = ev.target;
+  if (t.dataset.in === 'draft' && ui.draft) { ui.draft[t.dataset.f] = parseNum(t.value); if (t.dataset.f === 'w') refreshPlates(); }
+  else if (t.dataset.in === 'pick-q' && ui.sheet) { ui.sheet.q = t.value; const l = $('#pick-list'); if (l) l.innerHTML = pickListHTML(); }
+});
+document.addEventListener('change', ev => {
+  const t = ev.target, c = t.dataset.change;
+  if (c === 'chart-ex') { ui.chartEx = t.value; ui.chartSel = null; ui.chartMetric = 'w'; render(); const s = $('#chart-ex'); if (s) s.focus({ preventScroll: true }); }
+  else if (c === 'habit-kind') { ui.sheet.kind = t.value; $('#hb-num').hidden = t.value !== 'num'; }
+  else if (c === 'im-file' && t.files && t.files[0]) {
+    const fr = new FileReader();
+    fr.onload = () => { const ta = $('#im-text'); if (ta) ta.value = String(fr.result || ''); };
+    fr.readAsText(t.files[0]);
+  }
+});
+document.addEventListener('focusin', ev => { if (ev.target.matches && ev.target.matches('.stepper input')) { try { ev.target.select(); } catch (e) {} } });
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState !== 'visible') return;
+  if (ui.follow && ui.date !== tkey()) { setDate(tkey()); render(); }
+});
+setInterval(tickRest, 1000);
+
+/* ================= boot ================= */
+function start(hot) {
+  let s = null;
+  if (hot && hot.state) s = hot.state;
+  if (!s) s = load();
+  try { state = s ? normalize(s) : sample(); } catch (e) { state = sample(); }
+  if (hot && hot.tab && VIEWS[hot.tab]) ui.tab = hot.tab;
+  setDate(tkey());
+  ui.active = 0;
+  render();
+}
+const hot = window.claude && window.claude.hot;
+if (hot && hot.snapshot) { try { hot.snapshot(() => ({ state: state, tab: ui.tab })); } catch (e) {} }
+if (hot && hot.ready) hot.ready(start); else start((hot && hot.data) || {});
+
+if ('serviceWorker' in navigator && !FRAMED && location.protocol === 'https:') {
+  window.addEventListener('load', () => { navigator.serviceWorker.register('./sw.js').catch(() => {}); });
+}
+})();
+
+</script>
+</body>
+</html>
