@@ -1,6 +1,6 @@
 // Keeps the app working without a connection.
 // Bump the version when you upload new files so phones pick up the update.
-const CACHE = 'tsumiage-v1';
+const CACHE = 'tsumiage-v2';
 const FILES = ['./', './index.html', './manifest.webmanifest', './apple-touch-icon.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
